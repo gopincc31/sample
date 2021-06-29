@@ -1,0 +1,74 @@
+<% layout('/layouts/boilerplate') %>
+<div class="container d-flex justify-content-center align-items-center  mb-3">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+            <div class="card shadow">
+                <img src="https://images.unsplash.com/photo-1561296160-7ea9d1b5511d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+                    alt="" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Welcome - Login Here!</h5>
+                    <form method="post" action='/login' class='validated-form mb-3'>
+                        <div class=' mb-3'>
+                            <label class="form-label" for="username"><b>Username</b></label>
+                            <input class="form-control" type="text" id='username' name='username' autofocus required>
+                                
+                            <div class=" valid-feedback">
+                                Username ok!
+                            </div>
+                        </div>
+                        <div class='mb-3'>
+                            <label class="form-label" for="password"><b>Password</b></label>
+                            <input class="form-control" type="password" id='password' name='password' required>
+                            <div class=" valid-feedback">
+                                password ok!
+                            </div>
+                        </div>
+                        <div class="text-center">
+                        <button class="btn btn-secondary mb-3"> Login</button>
+                    </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <link rel="stylesheet" href="/stylesheets/login.css">
+<div class="card" style="width:45rem;">
+    <div class="card-header text-center">Login </div>
+    <div class="card-body">
+        <form action="/login" method="POST" class="validated-form" novalidate>
+            <div class="row m-3">
+                <label class="form-label" for="username">Username</label>
+                <input class="form-control" type="text" placeholder="Username" id="username" name="username" required>
+                <div class="valid-feedback">
+                    looks good!
+                </div>
+            </div>
+           
+            <div class="row m-3">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" type="password" placeholder="Password" id="password" name="password" required>
+                <div class="valid-feedback">
+                    looks good!
+                </div>
+            </div>
+            <div class="text-center">
+            <button class="btn btn-success">Login</button>
+           </div>  
+        
+        </form>
+        
+
+    </div>
+</div>
+
+
+ -->
+
+
+
+
+
+
+
